@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1172D9951F5FDB26007D4EC8"
-               BuildableName = "simulator.app"
-               BlueprintName = "simulator"
-               ReferencedContainer = "container:simulator.xcodeproj">
+               BlueprintIdentifier = "42A4469351A42FF2341CA28E05B92D0A"
+               BuildableName = "Toast_Swift.framework"
+               BlueprintName = "Toast-Swift"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1172D9951F5FDB26007D4EC8"
-            BuildableName = "simulator.app"
-            BlueprintName = "simulator"
-            ReferencedContainer = "container:simulator.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1172D9951F5FDB26007D4EC8"
-            BuildableName = "simulator.app"
-            BlueprintName = "simulator"
-            ReferencedContainer = "container:simulator.xcodeproj">
+            BlueprintIdentifier = "42A4469351A42FF2341CA28E05B92D0A"
+            BuildableName = "Toast_Swift.framework"
+            BlueprintName = "Toast-Swift"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1172D9951F5FDB26007D4EC8"
-            BuildableName = "simulator.app"
-            BlueprintName = "simulator"
-            ReferencedContainer = "container:simulator.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

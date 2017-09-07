@@ -8,20 +8,58 @@
 
 /* Begin PBXBuildFile section */
 		1172D99A1F5FDB26007D4EC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9991F5FDB26007D4EC8 /* AppDelegate.swift */; };
-		1172D99C1F5FDB26007D4EC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D99B1F5FDB26007D4EC8 /* ViewController.swift */; };
 		1172D99F1F5FDB26007D4EC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1172D99D1F5FDB26007D4EC8 /* Main.storyboard */; };
 		1172D9A11F5FDB26007D4EC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1172D9A01F5FDB26007D4EC8 /* Assets.xcassets */; };
 		1172D9A41F5FDB26007D4EC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1172D9A21F5FDB26007D4EC8 /* LaunchScreen.storyboard */; };
+		1172D9AE1F5FE70C007D4EC8 /* BankTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9AD1F5FE70C007D4EC8 /* BankTableViewController.swift */; };
+		1172D9B11F5FE8A9007D4EC8 /* BankTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9B01F5FE8A9007D4EC8 /* BankTableViewCell.swift */; };
+		1172D9B41F5FF438007D4EC8 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9B31F5FF438007D4EC8 /* Toast.swift */; };
+		1172D9B61F5FF442007D4EC8 /* Http.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9B51F5FF442007D4EC8 /* Http.swift */; };
+		1172D9B91F5FF478007D4EC8 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9B81F5FF478007D4EC8 /* AppConstants.swift */; };
+		1172D9BB1F5FF49E007D4EC8 /* UrlConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9BA1F5FF49E007D4EC8 /* UrlConstants.swift */; };
+		1172D9BD1F5FF512007D4EC8 /* ViewUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9BC1F5FF512007D4EC8 /* ViewUtil.swift */; };
+		1172D9C01F5FF78D007D4EC8 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9BF1F5FF78D007D4EC8 /* Bank.swift */; };
+		1172D9C31F5FFBA4007D4EC8 /* TradeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9C21F5FFBA4007D4EC8 /* TradeTableViewController.swift */; };
+		1172D9C81F600651007D4EC8 /* Trade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9C71F600651007D4EC8 /* Trade.swift */; };
+		1172D9CA1F6010AA007D4EC8 /* TradeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9C91F6010AA007D4EC8 /* TradeTableViewCell.swift */; };
+		1172D9CC1F60D73D007D4EC8 /* ConfigTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9CB1F60D73D007D4EC8 /* ConfigTableViewController.swift */; };
+		1172D9CE1F60D9AE007D4EC8 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9CD1F60D9AE007D4EC8 /* Config.swift */; };
+		1172D9D01F60DA3C007D4EC8 /* ConfigTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9CF1F60DA3C007D4EC8 /* ConfigTableViewCell.swift */; };
+		1172D9D31F6114AF007D4EC8 /* EnvironmentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9D21F6114AF007D4EC8 /* EnvironmentTableViewController.swift */; };
+		1172D9D51F61152B007D4EC8 /* FileUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9D41F61152B007D4EC8 /* FileUtil.swift */; };
+		1172D9D91F61228C007D4EC8 /* EnvironmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9D81F61228C007D4EC8 /* EnvironmentTableViewCell.swift */; };
+		1172D9DB1F612F63007D4EC8 /* StringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9DA1F612F63007D4EC8 /* StringUtil.swift */; };
+		90963A99F62EA2FB8D55F77F /* Pods_simulator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2CE70957E783C4F72CB89E /* Pods_simulator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1172D9961F5FDB26007D4EC8 /* simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1172D9991F5FDB26007D4EC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1172D99B1F5FDB26007D4EC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1172D99E1F5FDB26007D4EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1172D9A01F5FDB26007D4EC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1172D9A31F5FDB26007D4EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1172D9A51F5FDB26007D4EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1172D9AD1F5FE70C007D4EC8 /* BankTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankTableViewController.swift; sourceTree = "<group>"; };
+		1172D9B01F5FE8A9007D4EC8 /* BankTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankTableViewCell.swift; sourceTree = "<group>"; };
+		1172D9B31F5FF438007D4EC8 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		1172D9B51F5FF442007D4EC8 /* Http.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Http.swift; sourceTree = "<group>"; };
+		1172D9B81F5FF478007D4EC8 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		1172D9BA1F5FF49E007D4EC8 /* UrlConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UrlConstants.swift; sourceTree = "<group>"; };
+		1172D9BC1F5FF512007D4EC8 /* ViewUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewUtil.swift; sourceTree = "<group>"; };
+		1172D9BF1F5FF78D007D4EC8 /* Bank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		1172D9C21F5FFBA4007D4EC8 /* TradeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TradeTableViewController.swift; sourceTree = "<group>"; };
+		1172D9C71F600651007D4EC8 /* Trade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trade.swift; sourceTree = "<group>"; };
+		1172D9C91F6010AA007D4EC8 /* TradeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TradeTableViewCell.swift; sourceTree = "<group>"; };
+		1172D9CB1F60D73D007D4EC8 /* ConfigTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigTableViewController.swift; sourceTree = "<group>"; };
+		1172D9CD1F60D9AE007D4EC8 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		1172D9CF1F60DA3C007D4EC8 /* ConfigTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigTableViewCell.swift; sourceTree = "<group>"; };
+		1172D9D21F6114AF007D4EC8 /* EnvironmentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentTableViewController.swift; sourceTree = "<group>"; };
+		1172D9D41F61152B007D4EC8 /* FileUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUtil.swift; sourceTree = "<group>"; };
+		1172D9D81F61228C007D4EC8 /* EnvironmentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentTableViewCell.swift; sourceTree = "<group>"; };
+		1172D9DA1F612F63007D4EC8 /* StringUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUtil.swift; sourceTree = "<group>"; };
+		3D2CE70957E783C4F72CB89E /* Pods_simulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		669853F57F4A9FA7C4E34577 /* Pods-simulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simulator.release.xcconfig"; path = "Pods/Target Support Files/Pods-simulator/Pods-simulator.release.xcconfig"; sourceTree = "<group>"; };
+		EBF4DF63F03ADD411799AE19 /* Pods-simulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simulator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-simulator/Pods-simulator.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90963A99F62EA2FB8D55F77F /* Pods_simulator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +79,8 @@
 			children = (
 				1172D9981F5FDB26007D4EC8 /* simulator */,
 				1172D9971F5FDB26007D4EC8 /* Products */,
+				5805D76BF0AFC98825E7ADBE /* Pods */,
+				7EBCBC6361F5BF0B513CD40B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +95,128 @@
 		1172D9981F5FDB26007D4EC8 /* simulator */ = {
 			isa = PBXGroup;
 			children = (
+				1172D9AB1F5FDD57007D4EC8 /* core */,
+				1172D9BE1F5FF784007D4EC8 /* model */,
+				1172D9B71F5FF465007D4EC8 /* constants */,
+				1172D9B21F5FF423007D4EC8 /* util */,
+				1172D9AF1F5FE8A0007D4EC8 /* view */,
+				1172D9AC1F5FE6EA007D4EC8 /* controller */,
+			);
+			path = simulator;
+			sourceTree = "<group>";
+		};
+		1172D9AB1F5FDD57007D4EC8 /* core */ = {
+			isa = PBXGroup;
+			children = (
 				1172D9991F5FDB26007D4EC8 /* AppDelegate.swift */,
-				1172D99B1F5FDB26007D4EC8 /* ViewController.swift */,
 				1172D99D1F5FDB26007D4EC8 /* Main.storyboard */,
 				1172D9A01F5FDB26007D4EC8 /* Assets.xcassets */,
 				1172D9A21F5FDB26007D4EC8 /* LaunchScreen.storyboard */,
 				1172D9A51F5FDB26007D4EC8 /* Info.plist */,
 			);
-			path = simulator;
+			name = core;
+			sourceTree = "<group>";
+		};
+		1172D9AC1F5FE6EA007D4EC8 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				1172D9C11F5FFB89007D4EC8 /* respcode */,
+				1172D9D11F61145A007D4EC8 /* environment */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		1172D9AF1F5FE8A0007D4EC8 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1172D9D61F61224A007D4EC8 /* respcode */,
+				1172D9D71F612255007D4EC8 /* environment */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		1172D9B21F5FF423007D4EC8 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				1172D9B31F5FF438007D4EC8 /* Toast.swift */,
+				1172D9B51F5FF442007D4EC8 /* Http.swift */,
+				1172D9BC1F5FF512007D4EC8 /* ViewUtil.swift */,
+				1172D9D41F61152B007D4EC8 /* FileUtil.swift */,
+				1172D9DA1F612F63007D4EC8 /* StringUtil.swift */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		1172D9B71F5FF465007D4EC8 /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				1172D9B81F5FF478007D4EC8 /* AppConstants.swift */,
+				1172D9BA1F5FF49E007D4EC8 /* UrlConstants.swift */,
+			);
+			name = constants;
+			sourceTree = "<group>";
+		};
+		1172D9BE1F5FF784007D4EC8 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				1172D9BF1F5FF78D007D4EC8 /* Bank.swift */,
+				1172D9C71F600651007D4EC8 /* Trade.swift */,
+				1172D9CD1F60D9AE007D4EC8 /* Config.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		1172D9C11F5FFB89007D4EC8 /* respcode */ = {
+			isa = PBXGroup;
+			children = (
+				1172D9AD1F5FE70C007D4EC8 /* BankTableViewController.swift */,
+				1172D9C21F5FFBA4007D4EC8 /* TradeTableViewController.swift */,
+				1172D9CB1F60D73D007D4EC8 /* ConfigTableViewController.swift */,
+			);
+			name = respcode;
+			sourceTree = "<group>";
+		};
+		1172D9D11F61145A007D4EC8 /* environment */ = {
+			isa = PBXGroup;
+			children = (
+				1172D9D21F6114AF007D4EC8 /* EnvironmentTableViewController.swift */,
+			);
+			name = environment;
+			sourceTree = "<group>";
+		};
+		1172D9D61F61224A007D4EC8 /* respcode */ = {
+			isa = PBXGroup;
+			children = (
+				1172D9B01F5FE8A9007D4EC8 /* BankTableViewCell.swift */,
+				1172D9C91F6010AA007D4EC8 /* TradeTableViewCell.swift */,
+				1172D9CF1F60DA3C007D4EC8 /* ConfigTableViewCell.swift */,
+			);
+			name = respcode;
+			sourceTree = "<group>";
+		};
+		1172D9D71F612255007D4EC8 /* environment */ = {
+			isa = PBXGroup;
+			children = (
+				1172D9D81F61228C007D4EC8 /* EnvironmentTableViewCell.swift */,
+			);
+			name = environment;
+			sourceTree = "<group>";
+		};
+		5805D76BF0AFC98825E7ADBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBF4DF63F03ADD411799AE19 /* Pods-simulator.debug.xcconfig */,
+				669853F57F4A9FA7C4E34577 /* Pods-simulator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7EBCBC6361F5BF0B513CD40B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D2CE70957E783C4F72CB89E /* Pods_simulator.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1172D9A81F5FDB26007D4EC8 /* Build configuration list for PBXNativeTarget "simulator" */;
 			buildPhases = (
+				FDC48756244BE745C53748D6 /* [CP] Check Pods Manifest.lock */,
 				1172D9921F5FDB26007D4EC8 /* Sources */,
 				1172D9931F5FDB26007D4EC8 /* Frameworks */,
 				1172D9941F5FDB26007D4EC8 /* Resources */,
+				84CC9A6C17E0EA803F81CF18 /* [CP] Embed Pods Frameworks */,
+				A26DFF2F639E89EC26B660F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +290,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		84CC9A6C17E0EA803F81CF18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-simulator/Pods-simulator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Just/Just.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Just.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-simulator/Pods-simulator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A26DFF2F639E89EC26B660F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-simulator/Pods-simulator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDC48756244BE745C53748D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-simulator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1172D9921F5FDB26007D4EC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1172D99C1F5FDB26007D4EC8 /* ViewController.swift in Sources */,
+				1172D9D51F61152B007D4EC8 /* FileUtil.swift in Sources */,
+				1172D9D91F61228C007D4EC8 /* EnvironmentTableViewCell.swift in Sources */,
 				1172D99A1F5FDB26007D4EC8 /* AppDelegate.swift in Sources */,
+				1172D9DB1F612F63007D4EC8 /* StringUtil.swift in Sources */,
+				1172D9C81F600651007D4EC8 /* Trade.swift in Sources */,
+				1172D9B91F5FF478007D4EC8 /* AppConstants.swift in Sources */,
+				1172D9CE1F60D9AE007D4EC8 /* Config.swift in Sources */,
+				1172D9CC1F60D73D007D4EC8 /* ConfigTableViewController.swift in Sources */,
+				1172D9C31F5FFBA4007D4EC8 /* TradeTableViewController.swift in Sources */,
+				1172D9BD1F5FF512007D4EC8 /* ViewUtil.swift in Sources */,
+				1172D9BB1F5FF49E007D4EC8 /* UrlConstants.swift in Sources */,
+				1172D9B41F5FF438007D4EC8 /* Toast.swift in Sources */,
+				1172D9D01F60DA3C007D4EC8 /* ConfigTableViewCell.swift in Sources */,
+				1172D9AE1F5FE70C007D4EC8 /* BankTableViewController.swift in Sources */,
+				1172D9C01F5FF78D007D4EC8 /* Bank.swift in Sources */,
+				1172D9B11F5FE8A9007D4EC8 /* BankTableViewCell.swift in Sources */,
+				1172D9CA1F6010AA007D4EC8 /* TradeTableViewCell.swift in Sources */,
+				1172D9B61F5FF442007D4EC8 /* Http.swift in Sources */,
+				1172D9D31F6114AF007D4EC8 /* EnvironmentTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +490,7 @@
 		};
 		1172D9A91F5FDB26007D4EC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBF4DF63F03ADD411799AE19 /* Pods-simulator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZAU45PX3J5;
@@ -272,6 +504,7 @@
 		};
 		1172D9AA1F5FDB26007D4EC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 669853F57F4A9FA7C4E34577 /* Pods-simulator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZAU45PX3J5;
@@ -302,6 +535,7 @@
 				1172D9AA1F5FDB26007D4EC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
