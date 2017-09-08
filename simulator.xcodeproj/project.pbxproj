@@ -29,6 +29,11 @@
 		1172D9D51F61152B007D4EC8 /* FileUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9D41F61152B007D4EC8 /* FileUtil.swift */; };
 		1172D9D91F61228C007D4EC8 /* EnvironmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9D81F61228C007D4EC8 /* EnvironmentTableViewCell.swift */; };
 		1172D9DB1F612F63007D4EC8 /* StringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9DA1F612F63007D4EC8 /* StringUtil.swift */; };
+		1172D9DE1F6137FA007D4EC8 /* TransQueryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9DD1F6137FA007D4EC8 /* TransQueryController.swift */; };
+		1172D9E21F614837007D4EC8 /* TransTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9E11F614837007D4EC8 /* TransTableViewController.swift */; };
+		1172D9E41F614DC1007D4EC8 /* Trans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9E31F614DC1007D4EC8 /* Trans.swift */; };
+		1172D9E61F6152F5007D4EC8 /* TransTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9E51F6152F5007D4EC8 /* TransTableViewCell.swift */; };
+		1172D9E91F615575007D4EC8 /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1172D9E81F615575007D4EC8 /* DateUtil.swift */; };
 		90963A99F62EA2FB8D55F77F /* Pods_simulator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2CE70957E783C4F72CB89E /* Pods_simulator.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +62,11 @@
 		1172D9D41F61152B007D4EC8 /* FileUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileUtil.swift; sourceTree = "<group>"; };
 		1172D9D81F61228C007D4EC8 /* EnvironmentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentTableViewCell.swift; sourceTree = "<group>"; };
 		1172D9DA1F612F63007D4EC8 /* StringUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUtil.swift; sourceTree = "<group>"; };
+		1172D9DD1F6137FA007D4EC8 /* TransQueryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransQueryController.swift; sourceTree = "<group>"; };
+		1172D9E11F614837007D4EC8 /* TransTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransTableViewController.swift; sourceTree = "<group>"; };
+		1172D9E31F614DC1007D4EC8 /* Trans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trans.swift; sourceTree = "<group>"; };
+		1172D9E51F6152F5007D4EC8 /* TransTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransTableViewCell.swift; sourceTree = "<group>"; };
+		1172D9E81F615575007D4EC8 /* DateUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtil.swift; sourceTree = "<group>"; };
 		3D2CE70957E783C4F72CB89E /* Pods_simulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_simulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		669853F57F4A9FA7C4E34577 /* Pods-simulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simulator.release.xcconfig"; path = "Pods/Target Support Files/Pods-simulator/Pods-simulator.release.xcconfig"; sourceTree = "<group>"; };
 		EBF4DF63F03ADD411799AE19 /* Pods-simulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-simulator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-simulator/Pods-simulator.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,6 +130,7 @@
 		1172D9AC1F5FE6EA007D4EC8 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				1172D9DC1F6137E0007D4EC8 /* trans */,
 				1172D9C11F5FFB89007D4EC8 /* respcode */,
 				1172D9D11F61145A007D4EC8 /* environment */,
 			);
@@ -129,6 +140,7 @@
 		1172D9AF1F5FE8A0007D4EC8 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				1172D9E71F615437007D4EC8 /* trans */,
 				1172D9D61F61224A007D4EC8 /* respcode */,
 				1172D9D71F612255007D4EC8 /* environment */,
 			);
@@ -143,6 +155,7 @@
 				1172D9BC1F5FF512007D4EC8 /* ViewUtil.swift */,
 				1172D9D41F61152B007D4EC8 /* FileUtil.swift */,
 				1172D9DA1F612F63007D4EC8 /* StringUtil.swift */,
+				1172D9E81F615575007D4EC8 /* DateUtil.swift */,
 			);
 			name = util;
 			sourceTree = "<group>";
@@ -162,6 +175,7 @@
 				1172D9BF1F5FF78D007D4EC8 /* Bank.swift */,
 				1172D9C71F600651007D4EC8 /* Trade.swift */,
 				1172D9CD1F60D9AE007D4EC8 /* Config.swift */,
+				1172D9E31F614DC1007D4EC8 /* Trans.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -200,6 +214,23 @@
 				1172D9D81F61228C007D4EC8 /* EnvironmentTableViewCell.swift */,
 			);
 			name = environment;
+			sourceTree = "<group>";
+		};
+		1172D9DC1F6137E0007D4EC8 /* trans */ = {
+			isa = PBXGroup;
+			children = (
+				1172D9DD1F6137FA007D4EC8 /* TransQueryController.swift */,
+				1172D9E11F614837007D4EC8 /* TransTableViewController.swift */,
+			);
+			name = trans;
+			sourceTree = "<group>";
+		};
+		1172D9E71F615437007D4EC8 /* trans */ = {
+			isa = PBXGroup;
+			children = (
+				1172D9E51F6152F5007D4EC8 /* TransTableViewCell.swift */,
+			);
+			name = trans;
 			sourceTree = "<group>";
 		};
 		5805D76BF0AFC98825E7ADBE /* Pods */ = {
@@ -358,17 +389,22 @@
 				1172D9C81F600651007D4EC8 /* Trade.swift in Sources */,
 				1172D9B91F5FF478007D4EC8 /* AppConstants.swift in Sources */,
 				1172D9CE1F60D9AE007D4EC8 /* Config.swift in Sources */,
+				1172D9DE1F6137FA007D4EC8 /* TransQueryController.swift in Sources */,
 				1172D9CC1F60D73D007D4EC8 /* ConfigTableViewController.swift in Sources */,
 				1172D9C31F5FFBA4007D4EC8 /* TradeTableViewController.swift in Sources */,
+				1172D9E41F614DC1007D4EC8 /* Trans.swift in Sources */,
 				1172D9BD1F5FF512007D4EC8 /* ViewUtil.swift in Sources */,
 				1172D9BB1F5FF49E007D4EC8 /* UrlConstants.swift in Sources */,
 				1172D9B41F5FF438007D4EC8 /* Toast.swift in Sources */,
+				1172D9E21F614837007D4EC8 /* TransTableViewController.swift in Sources */,
 				1172D9D01F60DA3C007D4EC8 /* ConfigTableViewCell.swift in Sources */,
 				1172D9AE1F5FE70C007D4EC8 /* BankTableViewController.swift in Sources */,
 				1172D9C01F5FF78D007D4EC8 /* Bank.swift in Sources */,
 				1172D9B11F5FE8A9007D4EC8 /* BankTableViewCell.swift in Sources */,
 				1172D9CA1F6010AA007D4EC8 /* TradeTableViewCell.swift in Sources */,
 				1172D9B61F5FF442007D4EC8 /* Http.swift in Sources */,
+				1172D9E91F615575007D4EC8 /* DateUtil.swift in Sources */,
+				1172D9E61F6152F5007D4EC8 /* TransTableViewCell.swift in Sources */,
 				1172D9D31F6114AF007D4EC8 /* EnvironmentTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

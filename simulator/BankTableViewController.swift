@@ -36,7 +36,6 @@ class BankTableViewController: UITableViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        
         // 导航条标题
         parent?.navigationItem.title = "选择银行通道";
         parent?.navigationItem.rightBarButtonItem = nil
@@ -109,5 +108,4 @@ class BankTableViewController: UITableViewController {
         self.navigationController?.pushViewController(vc, animated: true);
         
     }
-    
 }

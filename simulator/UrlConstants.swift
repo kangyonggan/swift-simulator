@@ -32,5 +32,10 @@ class UrlConstants: NSObject {
     // 修改配置
     static let CONFIG_UPDATE = MOBILE + "config/update";
     
+    // 交易查询
+    static let TRANS_QUERY = MOBILE + "trans/query";
+    
+    // 更新交易
+    static let TRANS_UPDATE = MOBILE + "trans/update";
 }
 

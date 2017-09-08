@@ -28,12 +28,6 @@ class TradeTableViewCell: UITableViewCell {
             valueLbel.text = "不强制改变";
             keyLabel.text = "默认";
         }
-        
-        let keyFrame = CGRect(x: self.frame.width - 155, y: 30, width: 120, height: 20)
-        keyLabel.frame = keyFrame;
-        
-        let valFrame = CGRect(x: self.frame.width - 155, y: 8, width: 120, height: 30)
-        valueLbel.frame = valFrame;
     }
     
 }
